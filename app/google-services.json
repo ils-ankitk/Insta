@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "27588927599",
+    "firebase_url": "https://instapoll-ebd86.firebaseio.com",
+    "project_id": "instapoll-ebd86",
+    "storage_bucket": "instapoll-ebd86.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:27588927599:android:15ba05e0104ee41f",
+        "android_client_info": {
+          "package_name": "com.example.dell.instapoll"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "27588927599-ukppv0mfonp01fd2lt64fthj0c99lsdj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dell.instapoll",
+            "certificate_hash": "1dc2fd1e682f6d107c4412eedb92550709d9d652"
+          }
+        },
+        {
+          "client_id": "27588927599-ihb8ggcpnh0jdovnrek8k3v9d91np4uv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzhqLDzwiih1Co5v6y1kflW0YIy8cU4-Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "27588927599-ihb8ggcpnh0jdovnrek8k3v9d91np4uv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

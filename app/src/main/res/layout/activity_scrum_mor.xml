@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mor"
+
+    tools:context="com.example.dell.instapoll.Scrum_mor">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="italic|bold"
+        android:text="Sometimes when you innovate, you make mistakes. It is best to admit them quickly, and get on with improving your other innovations.-Steve Jobs"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="48dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q. Who Should be new scrum Master?"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textStyle="bold"
+            android:textSize="30sp"/>
+
+        <RadioButton
+            android:id="@+id/rad_ayush"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Ayush Mandloi"
+            android:textSize="25sp"/>
+
+        <RadioButton
+            android:id="@+id/rad_nik"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Nikhil Paliwal"
+            android:textSize="25sp"/>
+
+        <RadioButton
+            android:id="@+id/rad_vis"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Vishal Singh"
+            android:textSize="25sp"
+            />
+
+        <RadioButton
+            android:id="@+id/rad_roh"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Rohit Singh"
+            android:textSize="25sp"/>
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:text="Make My vote Count."
+            />
+    </RadioGroup>
+
+</RelativeLayout>
